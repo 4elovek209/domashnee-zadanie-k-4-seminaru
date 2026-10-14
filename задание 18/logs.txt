@@ -1,0 +1,12 @@
+INFO:root:Добавлен, новый HTTP GET
+INFO:root:Добавлен новый URL /index.html
+INFO:root:По адресу GET был сделан еще  1 запрос
+INFO:root:Добавлен новый URL /login
+INFO:root:По адресу GET был сделан еще  1 запрос
+INFO:root:Добавлен новый URL /api/users
+INFO:root:Добавлен, новый HTTP POST
+ERROR:root:Ошибка 401
+INFO:root:По URL был сделан еще 1 запрос.
+INFO:root:По адресу GET был сделан еще  1 запрос
+ERROR:root:Ошибка 403
+INFO:root:Добавлен новый URL /admin

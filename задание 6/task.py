@@ -1,0 +1,10 @@
+import pathlib
+directory = pathlib.Path("/home/annebiil/my_codes")
+file_count = len([f for f in directory.iterdir() if f.is_file()])
+catalog_count = len([c for c in directory.iterdir() if c.is_file() == False])
+py_file_count = len([pyf for pyf in directory.iterdir() if pyf.is_file() and pyf.suffix == ".py"])
+sum_size_files = ([f.stat().st_size for f in directory.iterdir() if f.is_file()])
+print("Количество файлов", file_count)
+print("Количество папок", catalog_count)
+print("Количесво файлов с расширением \'.py\'",py_file_count)
+print(sum(sum_size_files), "Байт")
